@@ -4,21 +4,30 @@ quoteBtn = document.querySelector("button");
 soundBtn = document.querySelector(".sound");
 copyBtn = document.querySelector(".copy");
 shareBtn = document.querySelector(".twitter");
-heartBtn = document.querySelector(".like");
+heartBtn = document.querySelector(".heart");
 
-function randomQuote(){
-    quoteBtn.classList.add("loading");
-    quoteBtn.innerText = "Loading Quote...";
-    fetch("https://api.quotable.io/random")
-    .then(res => res.json())
-    .then(result => {
-        quoteText.innerText = result.content
-        authorName.innerText = result.author
-        quoteBtn.innerText = "New quote"
-        quoteBtn.classList.remove("loading")
-    });
+let myQuotes = []
+
+function newQuote(){
+    let quote = myQuotes[Math.floor(Math.random()* myQuotes.length)]
+    if(!quote.author){
+        authorName.textContent = 'Unknown'
+    }else{
+        authorName.textContent = quote.author
+    }
+    quoteText.textContent = quote.text
 }
 
+async function getQuotes(){
+    const apiUrl = 'http://localhost:3000/quotes'
+    try{
+        const response = await fetch(apiUrl)
+        myQuotes = await response.json();
+        newQuote()
+    }   catch(error){
+
+    }
+}
 soundBtn.addEventListener("click", () =>{
     let utterance = new SpeechSynthesisUtterance( `${quoteText.innerText} by ${authorName.innerText}`);
     speechSynthesis.speak(utterance);
@@ -33,4 +42,13 @@ shareBtn.addEventListener("click", () =>{
     window.open(twitter, "_blank");
 })
 
-quoteBtn.addEventListener("click", randomQuote);
+heartBtn.addEventListener("click", like =>{
+    if (heartBtn.style.color == `red`) {
+        heartBtn.style.color = 'aqua'
+    } 
+    else {
+        heartBtn.style.color = 'red'
+    }
+})
+
+quoteBtn.addEventListener("click", newQuote);

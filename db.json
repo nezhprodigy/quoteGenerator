@@ -1,4 +1,5 @@
-[
+{
+"quotes": [
     {
       "id": 1,
       "quote":"You're slowly realising you weren't meant to save the world, rather to watch it burn." ,
@@ -135,3 +136,4 @@
       "author":"Unknown"
     }
   ]
+}

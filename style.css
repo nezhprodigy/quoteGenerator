@@ -1,27 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Edu TAS Beginner', 'cursive';
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(https://th.bing.com/th/id/OIP.Y0cfkYhccy3TUfF1OHKusQHaEo?pid=ImgDet&rs=1) ;
+    background: beige;
 }
 .wrapper{
-    width: 690px;
+    width: 700px;
     background: burlywood;
-    border-radius: 15px;
-    padding: 30px 30px 25px ;
+    position: relative;
+    border-radius: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.015);
 }
 .wrapper header{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.wrapper header::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgba(103, 2, 2, 0.442);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .wrapper .content{
     margin: 35px 0;
@@ -51,21 +68,19 @@ body{
     display: flex;
     font-size: 18px;
     font-style: italic;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: flex-end;
 }
 .author span:first-child{
     margin: -7px 5px 0 0;
     font-family: monospace;
 }
-.wrapper .buttons{
-    border-top: 1px solid black;
-}
 .buttons .features{
     display: flex;
-    align-items: center;
-    margin-top: 20px;
+    align-items:flex-start;
+    margin-top: 80px;
     justify-content: space-between;
+    float: inline-start;
 }
 .features ul{
     display: flex;
