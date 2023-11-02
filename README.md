@@ -17,7 +17,7 @@ To install the quote generator, you need to have a web browser that supports Jav
 
 Then, you need to clone this repository or download it as a ZIP file. To clone it, run the following command in your terminal:
 
-`git clone https://github.com/your-username/quote-generator-js.git`
+`git clone https://github.com/nezhprodigy/quoteGenerator.git`
 
 ## Usage
 
