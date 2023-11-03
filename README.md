@@ -1,5 +1,5 @@
 # Quote Generator
-
+by Alex Musyoki
 This is a simple quote generator that displays a random quote every time you run it. You can use it to get some motivation, inspiration, or entertainment.
 
 ## Features
