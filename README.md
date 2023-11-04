@@ -25,7 +25,7 @@ Then, you need to clone this repository or download it as a ZIP file. To clone i
 
 ## Usage
 
-To use the quote generator, open the `index.html` file in your browser. You will see a random quote and its author displayed on the web page. To get another quote, click on the `New Quote` button. To tweet the quote, click on the `Tweet` button.
+To use the quote generator, open the `index.html` file in your browser. You will see a random quote and its author displayed on the web page. To get another quote, click on the `New Quote` button. .To like  a quote, click on the `heart` button .To tweet the quote, click on the `Tweet` button.
 
 ## License
 
