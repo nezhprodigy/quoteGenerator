@@ -4,7 +4,7 @@ quoteBtn = document.querySelector("button");
 soundBtn = document.querySelector(".sound");
 copyBtn = document.querySelector(".copy");
 shareBtn = document.querySelector(".twitter");
-heartBtn = document.querySelector(".like");
+heartBtn = document.querySelector(".heart");
 
 function randomQuote(){
     quoteBtn.classList.add("loading");
@@ -31,6 +31,14 @@ copyBtn.addEventListener("click", () =>{
 shareBtn.addEventListener("click", () =>{
     let twitter = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`
     window.open(twitter, "_blank");
+})
+
+heartBtn.addEventListener("click", () => {
+   if (heartBtn.style.color == "red") {
+    heartBtn.style.color = "aqua";
+   }else{
+    heartBtn.style.color = "red"
+   }
 })
 
 quoteBtn.addEventListener("click", randomQuote);
