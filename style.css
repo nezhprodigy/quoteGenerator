@@ -92,7 +92,7 @@ body{
     width: 47px;
     display: flex;
     cursor: pointer;
-    color: aqua;
+    color: rgb(51, 28, 152);
     align-items: center;
     justify-content: center;
     border-radius: 50px;

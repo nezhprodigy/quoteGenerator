@@ -26,6 +26,7 @@ soundBtn.addEventListener("click", () =>{
 
 copyBtn.addEventListener("click", () =>{
     navigator.clipboard.writeText(quoteText.innerText);
+    alert("Copied!")
 });
 
 shareBtn.addEventListener("click", () =>{
@@ -35,7 +36,7 @@ shareBtn.addEventListener("click", () =>{
 
 heartBtn.addEventListener("click", () => {
    if (heartBtn.style.color == "red") {
-    heartBtn.style.color = "aqua";
+    heartBtn.style.color = "purple";
    }else{
     heartBtn.style.color = "red"
    }
