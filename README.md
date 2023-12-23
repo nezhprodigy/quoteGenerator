@@ -7,16 +7,16 @@ This is a simple quote generator that displays a random quote every time you run
 
 ## Features
 
-- The quotes are fetched from a public API
-- The program uses the `fetch` method to get the quotes from the API
-- The program displays the quote and the author on the web page 
-- The program also allows you to tweet the quote using the [Twitter Web Intent]
--( https://twitter.com/intent/tweet?url=${quoteText.innerText})
-- The program also allows you to copy the quote to our clipboard 
-- The program also has AI-sound that reads the quote out loud for you
-- The program has a like button that you can click
+    - The quotes are fetched from a public API
+    - The program uses the `fetch` method to get the quotes from the API
+    - The program displays the quote and the author on the web page 
+    - The program also allows you to tweet the quote using the [Twitter Web Intent]
+    -( https://twitter.com/intent/tweet?url=${quoteText.innerText})
+    - The program also allows you to copy the quote to our clipboard 
+    - The program also has AI-sound that reads the quote out loud for you
+    - The program has a like button that you can click
 
-## Project setup instrucions
+## Project setup instructions
 
 To run the quote generator, you need to have a web browser that supports JavaScript and HTML. You can use any browser of your choice, such as [Google Chrome](https://github.com/TheAdeel/random-quote-generator-in-javascript), [Firefox](https://dev.to/nehasoni__/random-quote-generator-using-html-css-and-javascript-3gbp), [Safari](https://github.com/sebam2k4/Random-Quote-Generator-JS), etc.
 
