@@ -23,7 +23,7 @@ To run the quote generator, you need to have a web browser that supports JavaScr
 
 Then, you need to clone this repository or download it as a ZIP file. To clone it, run the following command in your terminal:
 
-![carbon](https://github.com/nezhprodigy/quoteGenerator/assets/144494588/e56bf6ea-5f3d-4b50-9806-5cb5ece08ad5)
+![carbon (1)](https://github.com/nezhprodigy/quoteGenerator/assets/144494588/385d1eca-fa69-4f5c-a19d-584f05e1a6e0)
 
 
 ## Usage
