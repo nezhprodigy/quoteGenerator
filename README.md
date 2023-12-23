@@ -1,4 +1,5 @@
-## Quote Generator
+![quoteGenerator (1)](https://github.com/nezhprodigy/quoteGenerator/assets/144494588/a8036835-482b-4f0b-ab0c-8921202a1b33)
+
 by *Alex Musyoki*
 
 ## Description
