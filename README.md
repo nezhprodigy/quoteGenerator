@@ -1,5 +1,5 @@
-# Quote Generator
-by Alex Musyoki
+## Quote Generator
+by *Alex Musyoki*
 
 ## Description
 
