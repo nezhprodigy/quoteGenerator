@@ -27,6 +27,8 @@ Then, you need to clone this repository or download it as a ZIP file. To clone i
 ## Usage
 
 To use the quote generator, open the `index.html` file in your browser. You will see a random quote and its author displayed on the web page. To get another quote, click on the `New Quote` button. .To like  a quote, click on the `heart` button .To tweet the quote, click on the `Tweet` button.
+![quoteGenerator](https://github.com/nezhprodigy/harmony-hub/assets/144494588/022283f4-bfad-4d65-b1c0-47a44b7c86cf)
+
 
 ## License
 
